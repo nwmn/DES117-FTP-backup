@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+@media screen and (min-width: 950px) {
+  .col-4 {
+    width: 33.333%
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 951px)  {
+  .col-4 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px)  {
+  .col-4 {
+    width: 100%;
+  }
+}*/
+
+
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  display: block;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+p {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.col-4 {
+  width: 33.333%;
+  height: 900px;
+  padding: 40px;
+}
+
+.row {
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.round {
+  border-radius: 30px;
+}
+
+h3 {
+  font-size: 15pt;
+}
+
+p {
+  font-size: 12pt;
+}
+
+div.row {
+  margin-bottom: 100px;
+}
+
+section {
+  overflow: auto;
+}
+
+/* Breakpoint for Large Screens */
+@media screen and (min-width: 950px) {
+  .col-4 { width: 33.333%; }
+
+  .pin { margin-top: -50px; }
+
+}
+
+/* Breakpoint for Medium Screens */
+@media screen and (min-width: 451px) and (max-width: 949px){
+
+  .col-4 { width: 50%; }
+
+  .pin { margin-top: -5px; }
+
+  .center, #pinterest { margin-left: 25%; }
+
+  #pinterest { margin-top: -50px; } 
+
+
+}
+
+
+/* Breakpoint for Small Screens */
+@media screen and (max-width: 450px) {
+
+  .col-4 { width: 100%; }
+
+  /*hide images*/
+  img { display: none; }
+
+  .pin { margin-top: -100px; margin-bottom: 20px; border-bottom: 3px solid #000000; }
+
+  .col-4{ height: 650px; }
+
+  section { border: 3px solid #000000; border-bottom: none; }
+
+  #pinterest  {
+    height: 450px;
+  }
+
+
+}

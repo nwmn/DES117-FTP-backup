@@ -1,0 +1,181 @@
+/* Setup and Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+
+header h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* CSS Box Model */
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.row:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+/* Fluid Grid */
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* Helper Classes */
+
+.column {
+  float: left;
+}
+
+.padding {
+  padding: 20px;
+}
+
+/* Backgrounds & Section Formatting */
+
+header, footer {
+  background-color: #333333;
+}
+
+section {
+  overflow: hidden;
+}
+
+section #logo {
+  height: 100px;
+}
+
+#tagline, #events-img, #events-text, #gear-text, #gear-image {
+  height: 400px;
+}
+
+#tagline, #events-img, #gear-image {
+  background-size: cover;
+}
+
+#tagline {
+  background-image: url("files/background-header.jpg");
+  background-position: center bottom;
+}
+
+#events-img {
+  background-image: url("files/events.jpg");
+}
+
+#gear-image {
+  background-image: url("files/gear.jpg");
+}
+
+#events-text, #gear-text {
+  background-color: #4cd4c3;
+}
+
+#about {
+  background-color: #bcf4ed;
+  padding: 50px;
+}
+
+#app {
+  background: #FFFFFF;
+}
+
+#app p {
+  text-align: center;
+}
+
+#app img {
+  display: block;
+  margin: auto;
+}
+
+/* Typography & Text Formatting */
+
+body {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  line-height: 20pt;
+}
+
+h2 {
+  font-size: 36pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+#tagline, #events-text, #gear-text {
+    text-align: center;
+    line-height: 350px;
+}
+
+#about, #app {
+  font-size: 14pt;
+  color: #000000;
+}
+
+#partnerships h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#legal p {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#partnerships ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+#partnerships a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#partnerships h3 {
+  font-size: 18pt;
+}
+
+footer .row {
+  padding-top: 25px;
+}
+
+footer section {
+  padding: 25px;
+  padding-top: 0px;
+}
+
+#social-media img {
+  padding-right: 10px;
+}
+
+#social-media {
+  padding-left: 40px;
+}

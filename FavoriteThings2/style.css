@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+div {
+  padding: 30px;
+  border: 3px solid #000000;
+  height: 900px;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header {
+  height: 100%;
+  border: none;
+  margin-top: -50px;
+}
+
+img.logo {
+  width: 70%;
+  height: 70%;
+}
+
+h2 {
+  display: block;
+  margin-bottom: -10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  overflow: auto;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+.one {
+  clear: both;
+  width: 33.33%;
+  float: left;
+  overflow: auto;
+  border-right: none;
+  border-bottom: none;
+}
+
+.two {
+  width: 33.33%;
+  float: left;
+  overflow: auto;
+  border-right: none;
+  border-bottom: none;
+
+}
+
+.three {
+  width: 33.33%;
+  float: left;
+  overflow: auto;
+  border-bottom: none;
+}
+
+.four {
+  clear: both;
+  width: 50%;
+  float: left;
+  overflow: auto;
+  border-right: none;
+  border-bottom: none;
+}
+
+.five {
+  width: 50%;
+  float: left;
+  overflow: auto;
+  border-bottom: none;
+}
+
+.six {
+  clear: both;
+  width: 33.33%;
+  float: left;
+  margin-bottom: 3%;
+  overflow: auto;
+}
+
+.seven {
+  width: 33.33%;
+  float: left;
+  margin-bottom: 3%;
+  overflow: auto;
+  border-left: none;
+  border-right: none;
+
+}
+
+.eight {
+  width: 33.33%;
+  float: left;
+  margin-bottom: 3%;
+  overflow: auto;
+}

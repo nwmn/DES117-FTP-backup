@@ -1,0 +1,286 @@
+/* Setup and Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+}
+
+header h2 {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* CSS Box Model */
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.row:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+
+/* Fluid Grid */
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+/* Helper Classes */
+
+.column {
+  float: left;
+}
+
+.padding {
+  padding: 20px;
+}
+
+
+/* Backgrounds & Section Formatting */
+
+header, footer {
+  background-color: #333333;
+}
+
+section {
+  overflow: hidden;
+}
+
+section #logo {
+  height: 100px;
+}
+
+#tagline, #events-img, #events-text, #gear-text, #gear-image {
+  height: 400px;
+}
+
+#tagline, #events-img, #gear-image {
+  background-size: cover;
+}
+
+#tagline {
+  background-image: url("files/background-header.jpg");
+  background-position: center bottom;
+}
+
+#events-img {
+  background-image: url("files/events.jpg");
+}
+
+#gear-image {
+  background-image: url("files/gear.jpg");
+}
+
+#events-text, #gear-text {
+  background-color: #4cd4c3;
+}
+
+#about {
+  background-color: #bcf4ed;
+  padding: 50px;
+}
+
+#app {
+  background: #FFFFFF;
+}
+
+#app p {
+  text-align: center;
+}
+
+#app img {
+  display: block;
+  margin: auto;
+}
+
+
+/* Typography & Text Formatting */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #FFFFFF;
+  line-height: 20pt;
+}
+
+h2 {
+  font-size: 36pt;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+#tagline, #events-text, #gear-text {
+  text-align: center;
+  line-height: 350px;
+}
+
+#about, #app {
+  font-size: 14pt;
+  color: #000000;
+}
+
+#app {
+  height: 345px;
+}
+
+#about {
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+#partnerships h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#legal p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#partnerships ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+#partnerships li {
+  padding-bottom: 5px;
+}
+
+#partnerships a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#partnerships h3 {
+  font-size: 18pt;
+}
+
+#social-media img {
+  max-width: 18%;
+  min-width: 45px;
+}
+
+footer .row {
+  padding-top: 35px;
+}
+
+footer section {
+  padding: 25px;
+  padding-top: 0px;
+}
+
+#social-media img {
+  padding-right: 10px;
+}
+
+#social-media {
+  padding-left: 40px;
+}
+
+
+/* Responsive Layout -- Extra Credit Portion -- */
+
+@media screen and (max-width: 499px) {
+  .container {
+    width: 100%;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  #logo {
+    position: fixed;
+    top: 0px;
+    background-color: rgba(51,51,51,0.9);
+    width: 100%;
+  }
+  body {
+    text-align: center;
+  }
+  #about {
+    padding: 40px;
+  }
+  #about p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #app {
+    height: 600px;
+  }
+  #app img {
+    margin-bottom: 50px;
+  }
+
+  #partnerships a {
+    display: block;
+    background: #A9A9A9;
+    width: 75%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 4.5px;
+    margin: auto;
+  }
+
+  #partnerships a:hover {
+    background: #696969;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+  #social-media img {
+    max-width: 15%;
+  }
+
+  .none {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .none:hover {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+}

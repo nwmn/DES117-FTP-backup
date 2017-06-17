@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15pt;
+}
+
+section {
+  width: 1000px;
+  margin: auto;
+}
+
+img {
+  width: 460px;
+}
+
+div {
+  width: 460px;
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+
+.mania {
+  border-radius: 30px;
+  width: 960px;
+  margin: auto;
+}
+
+.overview {
+  float: left;
+}
+
+img.thinkpad {
+  width: 200px;
+}
+
+.history {
+  float: right;
+}
+
+.t460 {
+  clear: both;
+  float: left;
+}
+
+.x250 {
+  float: left;
+}
+
+.reddit {
+  clear: both;
+  margin: auto;
+}
+
+.tv {
+  clear: both;
+  float: left;
+}
+
+.news {
+  float: left;
+}
+
+.space {
+  float: left;
+}
+
+.tv, .news, .space {
+  width: 310px;
+  padding: 5px;
+  margin: 5px;
+}
+
+img.small {
+  width: 310px;
+}
+
+.center {
+  width: 1000px;
+  margin: auto;
+}
+
+section {
+  width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  display: inline-block;
+  padding-top: 30px;
+  text-align: left;
+  font-family: "georgia", sans-serif;
+  font-size: 15pt;
+}
+
+img {
+  display: inline-block;
+  padding-bottom: 30px;
+}

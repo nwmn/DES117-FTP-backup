@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 45pt;
+}
+
+body {
+  background: linear-gradient(to right, #00252A 0%, #000000 50%, #00252A 100%);
+}
+
+section {
+  width: 80%;
+  margin: auto;
+}

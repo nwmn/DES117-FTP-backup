@@ -1,0 +1,117 @@
+/* mood: meditative */
+
+body {
+  background-color: #87ceeb;
+  color: #ffffff;
+  font-family: "Century Gothic", sans-serif;
+  line-height: 135%;
+  background-size: auto;
+  /*background: linear-gradient(to right, #ffffff 0%, #87ceeb 45%, #87ceeb 60%, #ffffff 100%);*/
+  /*background: linear-gradient(to right, #5CFFA3 0%, #4ACC82 45%, #4ACC82 60%, #5CFFA3 100%);*/
+  background: linear-gradient(to right, #A8FFCE 0%, #4ACC82 50vw, #A8FFCE 100%);
+  font-size: 0.9vw;
+  text-align: center;
+  text-decoration: none;
+  font-weight: lighter;
+  background-repeat: repeat;
+}
+
+li {
+  list-style: none;
+}
+
+div.page-wrapper {
+  width: 40%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 5vw;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Century Gothic", "Georgia", serif;
+}
+
+p {
+  text-transform: lowercase;
+  margin: auto;
+  width: 40%;
+  display: inline;
+}
+
+h1 {
+  text-transform: lowercase;
+  margin-bottom: 3.5vw;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+h3 {
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+footer {
+  text-transform: lowercase;
+}
+
+.wrapper {
+  text-transform: lowercase;
+}
+
+ul {
+  text-indent: -3vw;
+}
+
+div.summary {
+  margin: auto;
+  width: 70%;
+  font-size: 85%;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 1vw;
+  padding: 1vw;
+}
+
+div.requirements {
+  background-size: 15vw;
+  background-image: url("images/2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.design-selection, .design-archives, .zen-resources {
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 1vw;
+  width: 20vw;
+  margin: auto;
+}
+
+.design-selection {
+  height: 15vw;
+  padding-top: .5vw;
+  margin-top: 1vw;
+}
+
+.design-archives {
+  height: 5.5vw;
+}
+
+.zen-resources {
+  height: 9vw;
+}

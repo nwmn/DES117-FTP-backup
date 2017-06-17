@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+* {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(to right, #00252A 0%, #000000 50%, #00252A 100%);
+  color: #0094AA;
+  font-family: 'Poppins', sans-serif;
+  line-height: 120%;
+}
+
+#wrapper {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 148, 170, 0.1);
+  border-radius: 90px;
+  margin-top: 30px;
+}
+
+header {
+  margin-top: 6.5em;
+  margin-left: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Righteous', serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  margin: -30px auto 20px auto;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 6.5px;
+  text-indent: -2em;
+  letter-spacing: 2px;
+}
+
+footer {
+  margin-top: -15px;
+}
+
+a {
+  color: #4AE0F6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+a:active {
+  color: #000000;
+}
+
+a.nav {
+  text-transform: uppercase;
+}
+
+footer {
+  font-style: italic;
+}
+/* Box Model CSS */
+
+#wrapper {
+  width: 955px;
+  margin: auto;
+}
