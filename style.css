@@ -32,6 +32,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h6 {
+  letter-spacing: 4px; 
+}
+
 img {
   display: block;
   margin: -30px auto 20px auto;
