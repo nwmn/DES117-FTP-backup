@@ -3,6 +3,8 @@
 
 * {
   outline: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -12,11 +14,10 @@ body {
   line-height: 120%;
 }
 
-#wrapper {
+main {
   text-align: center;
   padding: 20px;
   background-color: rgba(0, 148, 170, 0.1);
-  border-radius: 90px;
   margin-top: 30px;
 }
 
@@ -30,10 +31,22 @@ h2 {
   font-family: 'Righteous', serif;
   letter-spacing: 0px;
   text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h2:first-of-type {
+  margin-top: 10px; 
 }
 
 h6 {
-  letter-spacing: 1px;
+  display: inline-block;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 img {
@@ -48,12 +61,7 @@ ul {
 li {
   list-style: none;
   padding-bottom: 6.5px;
-  text-indent: -2em;
-  letter-spacing: 1px;
-}
-
-footer {
-  margin-top: -15px;
+  letter-spacing: -1px;
 }
 
 a {
@@ -79,6 +87,5 @@ footer {
 /* Box Model CSS */
 
 #wrapper {
-  width: 955px;
-  margin: auto;
+  width: 100%;
 }
