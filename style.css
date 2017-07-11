@@ -28,12 +28,12 @@ header {
 
 h2 {
   font-family: 'Righteous', serif;
-  letter-spacing: 4px;
+  letter-spacing: 0px;
   text-transform: uppercase;
 }
 
 h6 {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 img {
@@ -49,7 +49,7 @@ li {
   list-style: none;
   padding-bottom: 6.5px;
   text-indent: -2em;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 footer {
